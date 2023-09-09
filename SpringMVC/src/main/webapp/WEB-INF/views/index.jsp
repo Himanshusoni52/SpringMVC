@@ -7,6 +7,13 @@
 <title>HomePage!!!!!!!!!!!</title>
 </head>
 <body>
+
+<% 
+	 String name = (String)request.getAttribute("name");
+%>
 <h1> This home page.............</h1>
+
+<h1>Name is <%=name %></h1>
+
 </body>
 </html>
